@@ -1,0 +1,75 @@
+body{
+    background-image: url("https://image.freepik.com/free-photo/modern-futuristic-sci-fi-background_35913-2150.jpg");
+    background-size:100%;
+}
+h1 {
+    color: #ff0026;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: #ff0026;
+
+}
+.game {
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url(https://image.freepik.com/free-vector/railway-landscape_1284-12882.jpg);
+}
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/477/477149.png");
+    background-size: 50px 50px;
+    position: relative;
+    top: 400px;
+    left: 50px;
+}
+#cactus {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 360px;
+    left: 580px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/874/874928.png);
+    background-size: 20px 40px;
+
+    animation: block 1s infinite linear;
+}
+
+.jump {
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 350px;
+    }
+
+    20% {
+        top: 300px;
+    }
+
+    50% {
+        top: 250px
+    }
+
+    80% {
+        top: 300px;
+    }
+
+    100% {
+        top: 350px;
+    }
+}
+@keyframes block {
+    0% {
+        left: 580px;
+    }
+
+    100% {
+        left: -20px;
+    }
+}

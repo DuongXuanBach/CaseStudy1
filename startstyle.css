@@ -1,0 +1,23 @@
+body{
+    background-image: url("https://image.freepik.com/free-photo/modern-futuristic-sci-fi-background_35913-2150.jpg");
+    background-size:100%;
+}
+.game {
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+    color: gold;
+}
+h3{
+    text-align: center;
+    color: gold;
+
+}
+div {
+    text-align: center;
+}

@@ -1,0 +1,98 @@
+body{
+    background-image: url("https://image.freepik.com/free-photo/modern-futuristic-sci-fi-background_35913-2150.jpg");
+    background-size:100%;
+}
+h1 {
+    color: #ff0026;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: #ff0026;
+
+}
+.game {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url(https://i.pinimg.com/564x/92/c1/f8/92c1f81ee83b011559d809753f50a365.jpg);
+    background-size:140%;
+}
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/817/817757.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 350px;
+    left: 50px;
+}
+#cactus {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 310px;
+    left: 780px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/874/874928.png);
+    background-size: 20px 40px;
+
+    animation: block 1.6s infinite linear;
+}
+#rock {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 220px;
+    left: 780px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3413/3413211.png);
+    background-size: 20px 40px;
+
+    animation: block 5.3s infinite linear;
+}
+#dragon {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 240px;
+    left: 780px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2603/2603009.png);
+    background-size: 20px 40px;
+
+    animation: block 4.3s infinite linear;
+}
+
+.jump {
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 300px;
+    }
+
+    20% {
+        top: 250px;
+    }
+
+    50% {
+        top: 240px
+    }
+
+    80% {
+        top: 250px;
+    }
+
+    100% {
+        top: 300px;
+    }
+}
+@keyframes block {
+    0% {
+        left: 780px;
+    }
+
+    100% {
+        left: -20px;
+    }
+}
